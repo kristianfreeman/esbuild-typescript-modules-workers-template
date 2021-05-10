@@ -1,0 +1,22 @@
+{
+  "name": "esbuild-workers-template",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/out.mjs",
+  "private": true,
+  "dependencies": {
+    "esbuild": "^0.11.20",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^2.2.2",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "npx tsc && node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
