@@ -3,8 +3,7 @@
     "noEmit": true,
     "experimentalDecorators": true,
     "lib": [
-      "esnext",
-      "webworker"
+      "ES2020"
     ],
     "types": [
       "@cloudflare/workers-types"

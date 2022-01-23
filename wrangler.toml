@@ -1,10 +1,1 @@
-name = "esbuild-workers-template"
-type = "javascript"
-account_id = ''
-workers_dev = true
-
-[build]
-command = "npm install && npm run build"
-[build.upload]
-format = "modules"
-main = "./index.mjs"
+compatibility_date = "2022-01-23"
